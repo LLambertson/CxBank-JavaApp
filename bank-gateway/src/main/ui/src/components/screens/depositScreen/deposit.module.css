@@ -1,0 +1,25 @@
+
+.contentCard{
+    min-width: 300px;
+    width: 40vw;
+    max-width: 400px;
+    min-height: 300px;
+    max-height: 300px;
+}
+
+.form{
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: flex-end;
+    width: 100%;
+;
+}
+.depositButton{
+    width: 100%;
+}
+
+.dollar{
+    margin: 0 5px;
+}

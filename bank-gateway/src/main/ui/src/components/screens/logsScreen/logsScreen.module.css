@@ -1,0 +1,80 @@
+.component {
+    padding: 20px;
+    justify-content: flex-start;
+    align-items: stretch;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    height: 40px;
+    margin: 5px 0 10px 5px;
+}
+
+
+.list {
+    overflow-y: scroll;
+    flex-grow: 1;
+    /*workaround - fix component overflowing + scroll*/
+    height: 5px;
+
+}
+
+.logEntry {
+    display: flex;
+    padding: 5px;
+    align-items: center;
+}
+
+.logEntry h5 {
+    margin: 0 10px;
+}
+
+.dateSpan {
+    min-width: 200px;
+    max-width: 200px;
+    text-align: center;
+    background: var(--gray);
+    color: var(--light);
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.logTypeSpan {
+    min-width: 150px;
+    max-width: 150px;
+    text-align: center;
+    background: var(--gray);
+    color: var(--light);
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.messageSpan {
+    flex-grow: 1;
+    text-align: start;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    padding: 3px 0;
+}
+
+.sink {
+    background-color: var(--green);
+}
+
+.propagator {
+    background-color: var(--blue);
+}
+
+.entryPoint {
+    background-color: var(--red);
+
+}
+
+.notFound {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}

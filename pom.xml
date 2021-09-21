@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.checkmarx.demo.service.discovery</groupId>
+    <artifactId>service-discovery-demo-parent</artifactId>
+    <version>1.0.0-SNAPSHOT</version>
+    <packaging>pom</packaging>
+
+    <name>Service Discovery Demo Aggregator</name>
+
+    <modules>
+        <module>bank-gateway</module>
+        <module>bank-analysis</module>
+        <module>bank-storage</module>
+        <module>java-kafka-entry-point</module>
+        <module>java-kafka-http-entry-point</module>
+        <module>java-kafka-propagator</module>
+        <module>java-kafka-sink</module>
+        <module>java-rabbitmq-entry-point</module>
+        <module>java-rabbitmq-http-entry-point</module>
+        <module>java-rabbitmq-propagator</module>
+        <module>java-rabbitmq-sink</module>
+    </modules>
+</project>

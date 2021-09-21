@@ -1,0 +1,42 @@
+
+ html, body, div[id="root"] {
+  text-align: center;
+  min-height: 100vh;
+  max-height: 100vh;
+  padding:0;
+  margin:0;
+}
+
+
+.noOpacity{
+  opacity: 0;
+}
+
+.flexCenter{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.flexColumn{
+  display: flex;
+  flex-direction: column;
+}
+
+.iconMedium{
+  width:80px;
+  height:80px;
+}
+.iconSmall{
+  width:60px;
+  height:60px;
+}
+
+.iconMarginMedium{
+  margin: 20px;
+}
+.capitalize{
+    text-transform: capitalize;
+}
+ .allCaps{
+     text-transform: uppercase;
+ }

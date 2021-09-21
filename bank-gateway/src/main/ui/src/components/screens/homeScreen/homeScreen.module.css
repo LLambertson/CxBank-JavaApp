@@ -1,0 +1,15 @@
+
+
+.welcome{
+    padding: 40px ;
+    margin: 20px 0 ;
+}
+
+.menu{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.menu *{
+    padding:  10px;
+}

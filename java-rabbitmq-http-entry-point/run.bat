@@ -1,0 +1,1 @@
+java -agentlib:jdwp=transport=dt_socket,server=y,suspend=n,address=8417 -javaagent:"agent\cx-launcher.jar" -DcxAgentAutoUpgrade=no -Dcx.standalone=yes -Dcx.log.level=DEBUG -jar "target\java-rabbitmq-http-entry-point.jar"
